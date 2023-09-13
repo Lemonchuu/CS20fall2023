@@ -6,17 +6,7 @@ public class Test1 {
 		 
 	
 		 
-		 //Declaration
-		 int age; 
-		  double cost;
-		  String name;
-		  char letter;
-		 //initialization
-		 age = 16;
-		 cost = 44.50;
-		 name = "Rain";
-		 letter ='N';
-		 System.out.print((age+cost)+ "=" +name);
+		
 		 
 	Scanner input = new Scanner (System.in);   
 	System.out.print("Hi");
@@ -29,6 +19,12 @@ public class Test1 {
 	
 
 	int sum = num1 + num2;
+	double num1 = input.nextDouble();
+	
+	double num2 = input.nextDouble();
+	
+	double sum = num1 + num2;
+			
 
 	System.out.print("The sum of your 2 numbers is:" + sum);
 	
